@@ -7,7 +7,7 @@ Components v2 is Discord ka naya message layout system, jo aapko **poora control
 
 ## Kya Naya Hai Components V2 Mein?
 
--  Fully customizable layouts (LEGO-style blocks)
+-  Fully customizable layouts
 -  Rich text with markdown
 -  Clean UI with sections, images, and spacing
 -  Buttons & dropdowns included
@@ -15,7 +15,7 @@ Components v2 is Discord ka naya message layout system, jo aapko **poora control
 
 ---
 
-## ðŸ§± Basic Building Blocks
+## Basic Building Blocks
 
 | Component | Use Kaha Hota Hai? |
 |----------|-------------------|
