@@ -111,7 +111,7 @@ new MediaGalleryBuilder()
 
 | Old Embed Function     | New Component             |
 |------------------------|---------------------------|
-| `setTitle()`           | `TextDisplayBuilder` with `# Heading` |
+| `setTitle()`           | `TextDisplayBuilder` with `setContent(`# <Heading>`)` |
 | `setDescription()`     | `TextDisplayBuilder`       |
 | `addFields()`          | `SectionBuilder` with text displays |
 | `setImage()`           | `MediaGalleryBuilder`      |
