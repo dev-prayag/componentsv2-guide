@@ -1,17 +1,17 @@
 
-# ðŸ’¬ Discord.js Components V2 - Beginner Friendly Guide (Hinglish Style)
+# Discord.js Components V2 - Beginner Friendly Guide (Hinglish Style)
 
 Components v2 is Discord ka naya message layout system, jo aapko **poora control** deta hai ki message ka layout kaise dikhe. Ye traditional `embed` system se zyada powerful aur flexible hai.
 
 ---
 
-## ðŸš€ Kya Naya Hai Components V2 Mein?
+## Kya Naya Hai Components V2 Mein?
 
-- âš’ï¸ Fully customizable layouts (LEGO-style blocks)
-- ðŸ“ Rich text with markdown
-- ðŸŽ¨ Clean UI with sections, images, and spacing
-- ðŸ”˜ Buttons & dropdowns included
-- â— `content`, `embeds`, `stickers` nahi chalenge jab aap `MessageFlags.IsComponentsV2` use karoge
+-  Fully customizable layouts (LEGO-style blocks)
+-  Rich text with markdown
+-  Clean UI with sections, images, and spacing
+-  Buttons & dropdowns included
+-  `content`, `embeds`, `stickers` nahi chalenge jab aap `MessageFlags.IsComponentsV2` use karoge
 
 ---
 
@@ -29,7 +29,7 @@ Components v2 is Discord ka naya message layout system, jo aapko **poora control
 
 ---
 
-## ðŸ§¾ Simple Example
+## Simple Example
 
 ```js
 const container = new ContainerBuilder()
@@ -49,7 +49,7 @@ const container = new ContainerBuilder()
 
 ---
 
-## ðŸ§  Button Click Handling
+## Button Click Handling
 
 ```js
 client.on('interactionCreate', async i => {
@@ -63,7 +63,7 @@ client.on('interactionCreate', async i => {
 
 ---
 
-## ðŸŽ¨ Visual Layout Example (Dashboard Style)
+## Visual Layout Example (Dashboard Style)
 
 ```js
 const dashboard = new ContainerBuilder()
@@ -91,7 +91,7 @@ const dashboard = new ContainerBuilder()
 
 ---
 
-## ðŸ–¼ï¸ Show Images (Product Preview)
+## Show Images
 
 ```js
 new MediaGalleryBuilder()
@@ -107,30 +107,30 @@ new MediaGalleryBuilder()
 
 ---
 
-## ðŸ” Migrating from Embeds
+## Migrating from Embeds
 
 | Old Embed Function     | New Component             |
 |------------------------|---------------------------|
 | `setTitle()`           | `TextDisplayBuilder` with `# Heading` |
 | `setDescription()`     | `TextDisplayBuilder`       |
-| `addFields()`          | `SectionBuilder` with 1â€“3 text displays |
+| `addFields()`          | `SectionBuilder` with text displays |
 | `setImage()`           | `MediaGalleryBuilder`      |
 | `setThumbnail()`       | `SectionBuilder.setThumbnailAccessory()` |
 | `setColor()`           | `ContainerBuilder.setAccentColor()` |
 
 ---
 
-## âš ï¸ Important Tips
+## Important Tips
 
-- âœ… **Always set this flag** in message: `MessageFlags.IsComponentsV2`
-- ðŸ”¢ Max 40 components per message (container + inside elements)
-- ðŸ“± Test layouts on mobile too
-- ðŸª„ Use `SeparatorBuilder` for spacing or visual breaks
-- ðŸ§¼ Keep layout simple, clean, and organized
+-  **Always set this flag** in message: `MessageFlags.IsComponentsV2`
+-  Max 40 components per message (container + inside elements)
+-  Test layouts on mobile too
+-  Use `SeparatorBuilder` for spacing or visual breaks
+-  Keep layout simple, clean, and organized
 
 ---
 
-## ðŸ§ª Example with Interactions + Flags
+## Example with Interactions + Flags
 
 ```js
 await interaction.reply({
@@ -141,7 +141,7 @@ await interaction.reply({
 
 ---
 
-## ðŸ“¦ Advanced Tips
+## Advanced Tips
 
 ### Pagination Example:
 
@@ -197,17 +197,17 @@ class PaginatedContainer {
 
 ---
 
-## ðŸ Conclusion
+## Conclusion
 
-Components v2 is not just an update â€” it's a **new way of building Discord messages**.
+Components v2 is not just an update it's a **new way of building Discord messages**.
 
 > Socho layout ke hisab se. Message ko design karo block by block. Aur practice se expert ban jaoge.
 
-Start basic. Use 1â€“2 components. Dekho kaise dikh raha hai. Fir gradually sections, galleries, spacing, actions sab add karo.
+Start basic. Use components. Dekho kaise dikh raha hai. Fir gradually sections, galleries, spacing, actions sab add karo.
 
 ---
 
-ðŸ‘·â€â™‚ï¸ Bana rahe ho ek modern UI for Discord? **Components v2 is your new best friend.**
+Bana rahe ho ek modern UI for Discord? **Components v2 is your new best friend.**
 
 Need help or want example files? Just ask.  
-Happy Building! ðŸ’»âœ¨
+Happy Building!
