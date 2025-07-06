@@ -1,5 +1,5 @@
 
-# Discord.js Components V2 - Beginner Friendly Guide (Hinglish Style)
+# Discord.js Components V2 - Beginner Friendly Guide
 
 Components v2 is Discord ka naya message layout system, jo aapko **poora control** deta hai ki message ka layout kaise dikhe. Ye traditional `embed` system se zyada powerful aur flexible hai.
 
